@@ -1,7 +1,7 @@
 // rest-api/scripts/seed.js
 require("dotenv").config();
 const { connect } = require("../config/db");
-const Product = require("../models/Product");
+const Product = require("../models/product");
 
 async function seed() {
   if (!process.env.MONGODB_URI) {
